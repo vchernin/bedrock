@@ -131,6 +131,9 @@ urlpatterns = (
     page('firefox/profile-migrate', 'firefox/profile/profile-migrate.html'),
     page('firefox/profile-downgrade', 'firefox/profile/profile-downgrade.html'),
 
+    # Bug 1519084
+    page('firefox/dedicated-profiles', 'firefox/dedicated-profiles.html'),
+
     # Issue 6178
     page('firefox/this-browser-comes-highly-recommended', 'firefox/recommended.html'),
 
