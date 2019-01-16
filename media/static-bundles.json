@@ -1357,6 +1357,7 @@
         "js/hubs/sub-nav.js",
         "js/base/mozilla-smoothscroll.js",
         "js/base/mozilla-video-poster.js",
+        "js/base/mozilla-lazy-load.js",
         "js/firefox/home/features-scroller.js",
         "js/firefox/home/main.js"
       ],

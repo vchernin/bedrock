@@ -87,4 +87,6 @@
         initVideoInteractionTracking();
     }
 
+    Mozilla.LazyLoad.init();
+
 })(window.Mozilla, window.Waypoint);
