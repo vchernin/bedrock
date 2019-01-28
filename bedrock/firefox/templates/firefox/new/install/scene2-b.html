@@ -1,0 +1,16 @@
+{# This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/. -#}
+
+{% add_lang_files "firefox/new/quantum" %}
+
+{% extends "firefox/new/scene2.html" %}
+
+{% block experiments %}
+  {{ js_bundle('experiment-firefox-download-install-v-b') }}
+{% endblock %}
+
+{% block main_content %}
+<h1 class="headline">Thanks for downloading – you’re almost done</h1>
+<p>Finish setting up Firefox by clicking “Firefox Installer” in Chrome’s download bar.</p>
+{% endblock %}

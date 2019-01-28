@@ -8,6 +8,12 @@
 
 {% extends "firefox/base-protocol.html" %}
 
+{% block experiments %}
+  {% if switch('experiment_firefox_download_install', ['en-US']) %}
+    {{ js_bundle('experiment-firefox-download-install') }}
+  {% endif %}
+{% endblock %}
+
 {% block canonical_urls %}
   {# the "scene 2" page should set canonical to the /firefox/new/ page to give that
      page the SEO weight of links directly to "scene 2".
@@ -133,6 +139,7 @@
       </aside>
 
       {% else %}
+      {% block main_content %}
       <aside class="mobile-download">
         <h1 class="headline">{{ _('Let’s do this!') }}</h1>
         <p class="tagline">{{ _('Sync up with Firefox on mobile:') }}</p>
@@ -147,6 +154,7 @@
           </li>
         </ul>
       </aside>
+      {% endblock %}
 
       {% endif %}
     </div>
