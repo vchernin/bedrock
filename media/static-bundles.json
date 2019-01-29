@@ -1377,6 +1377,31 @@
     },
     {
       "files": [
+        "js/base/mozilla-traffic-cop.js",
+        "js/firefox/new/install/experiment.js"
+      ],
+      "name": "experiment-firefox-download-install"
+    },
+    {
+      "files": [
+        "js/firefox/new/install/variant-a.js"
+      ],
+      "name": "experiment-firefox-download-install-v-a"
+    },
+    {
+      "files": [
+        "js/firefox/new/install/variant-b.js"
+      ],
+      "name": "experiment-firefox-download-install-v-b"
+    },
+    {
+      "files": [
+        "js/firefox/new/install/variant-c.js"
+      ],
+      "name": "experiment-firefox-download-install-v-c"
+    },
+    {
+      "files": [
         "js/libs/jquery.hoverIntent.min.js",
         "js/libs/jquery.waypoints.min.js",
         "js/libs/jquery.jcarousel.min.js",
