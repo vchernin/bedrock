@@ -935,6 +935,12 @@
         "css/mozorg/browser-history.scss"
       ],
       "name": "browser-history"
+    },
+    {
+      "files": [
+        "css/mozorg/incognito-browser.scss"
+      ],
+      "name": "incognito-browser"
     }
   ],
   "js": [
