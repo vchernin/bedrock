@@ -929,6 +929,12 @@
         "css/mozorg/update-browser.scss"
       ],
       "name": "update-browser"
+    },
+    {
+      "files": [
+        "css/mozorg/browser-history.scss"
+      ],
+      "name": "browser-history"
     }
   ],
   "js": [
